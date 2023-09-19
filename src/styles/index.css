@@ -1,16 +1,14 @@
-
-body{
-    margin-top: 100px;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    background: beige;
+    color: green;
+    
 }
-ul{
-    padding: 0;
-    margin-bottom: 0 ;
+.title {
+    display: flex;
+    justify-content: center;
 }
-
-ul li {
-    border: 1px solid grey;
-    list-style: none;
-    padding: 5px;
-}
-h1{text-align: center;}
-input{border: none; width: 100%;}
